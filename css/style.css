@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#message-container{
+    width: 80%;
+    margin-inline: auto;
+    max-width: 1200px;
+    height: 80vh;
+}
+
+#message-container > div{
+    background-color: #ccc;
+    padding: 5px;
+}
+
+#message-container > div:nth-child(2n){
+    background-color: #fff;
+}
+
+#send-container{
+    margin-top: 50px;
+    width: 80%;
+    margin-inline: auto;
+}
+
+#message-input{
+    width: 80%;
+}
+
+#send-button{
+    width: 10%;
+}
+
